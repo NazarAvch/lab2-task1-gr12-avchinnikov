@@ -1,11 +1,40 @@
-# Overview
+## Overview
 
-It is public template of assignment `"labrabota 3"` for FPMI students
+Данный проект представляет собой консольное приложение на языке C, разработанное в рамках лабораторной работы №2.
 
-# Usage
+Программа выполняет подсчёт количества вхождений заданной буквы в строках. Пользователь вводит символ и строки, после чего программа с помощью функции определяет, сколько раз указанный символ встречается в каждой строке.
 
-Please, edit README and add some details, as instance **{add your last name, first name and group number}**.
+## Usage
 
-# Building
+Программа запускается из командной строки.
 
-Please, import repository and use for repl.it project, which is defined in the assignment "labrabota 3".
+После запуска необходимо:
+1. Ввести символ (букву), которую нужно искать.
+2. Ввести строку или несколько строк.
+3. Программа выведет количество вхождений заданного символа.
+
+Пример:
+
+Input:
+letter: l  
+string: hello  
+
+Output:
+2
+
+## Building
+
+Для сборки программы используется компилятор gcc.
+
+Команда для сборки:
+
+gcc -o labrabota2-1 src/main.c
+
+После сборки программа запускается командой:
+
+./labrabota2-1
+
+## Author
+
+Авчинников Назар
+12 группа

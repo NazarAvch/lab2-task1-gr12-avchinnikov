@@ -1,8 +1,2 @@
 language = "c"
-run = "gcc -o hello /home/runner/project2/src/hello.c"
-
-[nix]
-channel = "stable-25_05"
-
-[agent]
-expertMode = true
+gcc -o labrabota2-1 /home/runner/lab2-task1-gr12-avchinnikov/src/main.c
